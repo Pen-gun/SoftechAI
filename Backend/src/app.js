@@ -24,5 +24,11 @@ app.use(express.urlencoded(
 ));
 app.use(express.static('public'));
 
+//imports routes
+import documentRoute from './routes/documnet.routes.js';
+
+//routes
+app.use('/api/v1/documents', documentRoute);
+
 
 export default app;
