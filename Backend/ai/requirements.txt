@@ -1,0 +1,8 @@
+# CPU build to avoid CUDA wheel issues. If you need GPU, install torch separately with the exact cu11x/cu12x wheel that matches your driver.
+
+fastapi==0.110.0
+uvicorn==0.30.1
+python-multipart==0.0.9
+transformers==4.38.2
+torch==2.9.1
+paddleocr==2.7.0.3
